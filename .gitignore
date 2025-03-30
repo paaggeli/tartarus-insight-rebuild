@@ -1,0 +1,59 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+**/node_modules
+**/.pnp
+**/.pnp.*
+**/.yarn/*
+!**/.yarn/patches
+!**/.yarn/plugins
+!**/.yarn/releases
+!**/.yarn/versions
+
+# testing
+**/coverage
+
+# next.js
+**/nextjs/.next/
+**/nextjs/out/
+
+# React Router (Remix)
+**/react-router/build/
+**/.cache/
+**/react-router/public/build/
+
+# production
+**/build/
+**/dist/
+
+# misc
+.DS_Store
+**/*.pem
+**/.vscode/
+**/.cache/
+
+# debug
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/.pnpm-debug.log*
+
+# env files (can opt-in for committing if needed)
+**/.env*
+!**/.env.example
+
+# vercel
+**/.vercel
+
+# typescript
+**/*.tsbuildinfo
+**/next-env.d.ts
+
+# Logs
+**/logs
+**/*.log
+
+# Lock files (uncomment if you want to ignore these)
+**/yarn.lock
+**/pnpm-lock.yaml
+**/package-lock.json
