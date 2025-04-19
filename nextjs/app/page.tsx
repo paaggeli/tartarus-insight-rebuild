@@ -1,10 +1,21 @@
+import Menu from './components/Menu';
+import Hero from './components/Hero';
+import About from './components/About';
+import HowItWorks from './components/HowItWorks';
+import Examples from './components/Examples';
+import FAQ from './components/FAQ';
+import Footer from './components/Footer';
+
 export default function Home() {
   return (
-  <>
-    <h1>Tartarus Insight</h1>
-    <p>{`Harness the Oracle's wisdom to ascend from struggle to success. 
-      Emerge stronger from the abyss that once held you captive.`}
-    </p>
-  </>
-);
+    <>
+      <Menu />
+      <Hero />
+      <About />
+      <HowItWorks />
+      <Examples />
+      <FAQ />
+      <Footer />
+    </>
+  );
 }
