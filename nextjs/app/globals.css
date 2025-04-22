@@ -10,7 +10,7 @@
     --breakpoint-2xl: 2048px;
 
     --shadow-example: 0px 0px 11px rgb(255 255 255 / 46%);
-  }
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-caesar-dressing);
@@ -41,7 +41,7 @@ p {
 body {
     font-family: var(--font-poppins);
     line-height: 1.6;
-    color: #ddd;;
+    color: #ddd;
     background-color: #0e0e0e;
 }
 
