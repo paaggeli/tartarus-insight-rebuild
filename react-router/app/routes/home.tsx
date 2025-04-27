@@ -1,5 +1,5 @@
 import type { Route } from "./+types/home";
-import Menu from "../home/menu";
+import Menu from "../components/menu";
 import Hero from "../home/hero";
 import About from "../home/about";
 import HowItWorks from "../home/how-it-works";

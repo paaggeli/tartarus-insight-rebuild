@@ -49,6 +49,10 @@ body {
     max-width: 810px;
 }
 
+.banner-shadow {
+    text-shadow: 2px 2px 15px black;
+}
+
 /* Nav Menu Styles  breakpoint to mobile 450px */
 /* Apply a decorative border image with plain CSS because Tailwind doesn’t support border-image out of the box. */
 @media (min-width: 450px) { 

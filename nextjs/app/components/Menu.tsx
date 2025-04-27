@@ -46,11 +46,11 @@ export default function Menu() {
                 sm:translate-none
             `}>
                 <ul className="space-y-10 sm:space-y-0 sm:flex sm:space-x-5">
-                    <li><Link href="index.html" onClick={handleLinkClick} className="hover:text-neutral-300">Home</Link></li>
-                    <li><Link href="#about-section" onClick={handleLinkClick} className="hover:text-neutral-300">About</Link></li>
-                    <li><Link href="#how-it-works-section" onClick={handleLinkClick} className="hover:text-neutral-300">How it Works</Link></li>
-                    <li><Link href="#examples-section" onClick={handleLinkClick} className="hover:text-neutral-300">Examples</Link></li>
-                    <li><Link href="#faq-section" onClick={handleLinkClick} className="hover:text-neutral-300">FAQ</Link></li>
+                    <li><Link href="/" onClick={handleLinkClick} className="hover:text-neutral-300">Home</Link></li>
+                    <li><Link href="/#about-section" onClick={handleLinkClick} className="hover:text-neutral-300">About</Link></li>
+                    <li><Link href="/#how-it-works-section" onClick={handleLinkClick} className="hover:text-neutral-300">How it Works</Link></li>
+                    <li><Link href="/#examples-section" onClick={handleLinkClick} className="hover:text-neutral-300">Examples</Link></li>
+                    <li><Link href="/#faq-section" onClick={handleLinkClick} className="hover:text-neutral-300">FAQ</Link></li>
                 </ul>
             </nav>
             {!menuOpen && (
