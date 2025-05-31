@@ -10,4 +10,5 @@ type Params = {
   "/": {};
   "/help": {};
   "/policy": {};
+  "/oracle": {};
 };

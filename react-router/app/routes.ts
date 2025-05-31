@@ -5,6 +5,7 @@ export default [
     
     layout("./layouts/pages.tsx", [
         route("help", "./routes/help.tsx"),
-        route("policy", "./routes/policy.tsx")
+        route("policy", "./routes/policy.tsx"),
+        route("oracle", "./routes/oracle.tsx")
     ])
 ] satisfies RouteConfig;

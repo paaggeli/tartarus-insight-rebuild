@@ -44,6 +44,15 @@ p {
   max-width: 810px;
 }
 
+.banner-shadow {
+  text-shadow: 2px 2px 15px black;
+}
+
+.dropdown option {
+  background-color: #343434;
+  color: #ffffff;
+}
+
 /* Nav Menu Styles  breakpoint to mobile 450px */
 /* Apply a decorative border image with plain CSS because Tailwind doesn’t support border-image out of the box. */
 @media (min-width: 450px) { 
@@ -64,4 +73,73 @@ p {
   p {
       font-size: 18px;
   }
+}
+
+.scrollbar {
+  /* WebKit-based browsers like Safari and Chrome */
+  scrollbar-width: thin;
+  scrollbar-color: #404040 transparent;
+
+  /* Firefox */
+  -moz-scrollbar-width: thin;
+  -moz-scrollbar-color: #404040 transparent;
+
+  /* Internet Explorer */
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  -ms-scrollbar-track-color: transparent;
+  -ms-scrollbar-thumb-color: #404040;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+  height: 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.scrollbar::-moz-scrollbar {
+  width: 4px;
+  height: 10px    
+}
+
+.scrollbar::-moz-scrollbar-track {
+  background-color: transparent;
+}
+
+.scrollbar::-moz-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+.scrollbar::-moz-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.scrollbar::-ms-scrollbar {
+  width: 5px;
+  height: 10px;
+}
+
+.scrollbar::-ms-scrollbar-track {
+  background-color: transparent;
+}
+
+.scrollbar::-ms-scrollbar-thumb {
+  background-color: #404040;
+  border-radius: 5px;
+}
+
+.scrollbar::-ms-scrollbar-thumb:hover {
+  background-color: #555;
 }
